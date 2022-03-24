@@ -1,0 +1,37 @@
+# 指定需要使用的docker image，请先上传至harbor.yy.com
+image: harbor.yy.com/front_end/efox:node-14.18withPnpmAndGit
+
+variables:
+  ROOT_BUILD_PATH: $CI_PROJECT_DIR/
+
+stages:
+  #- build
+  #- deploy
+
+before_script:
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .pnpm-store
+
+
+deploy-commit:
+  tags:
+    - yyci_office
+  artifacts:
+      expire_in: 1 week
+      paths:
+      - dist/
+  before_script:
+    - pnpm config set store-dir .pnpm-store
+  script:
+    - pnpm i
+    - pnpm build
+    - pnpm esbuild:final
+    - cp -r ./esbuild dist
+    - cp ./package.json dist
+  only:
+    - master
+    
