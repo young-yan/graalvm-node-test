@@ -1,0 +1,145 @@
+[engine] opt done     Readable                                                    |AST  106|Tier 2|Time  839( 534+306 )ms|Inlined  19Y   0N|IR  3200/ 7824|CodeSize  30450|Addr 0x7f2865835110|Src internal/streams/readable.js:168
+[engine] opt done     Array.prototype.pop                                         |AST   15|Tier 2|Time   74(  54+20  )ms|Inlined   0Y   0N|IR   375/  853|CodeSize   3253|Addr 0x7f2865843a90|Src <builtin>:1
+[engine] opt done     setPosition                                                 |AST    8|Tier 1|Time   38(  32+6   )ms|Inlined   0Y   0N|IR   136/  257|CodeSize    722|Addr 0x7f2865845110|Src internal/timers.js:411
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   14(  12+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7f28649ad090|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  853( 832+21  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7f2865845a90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   16(  12+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7f28649f6210|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  218( 120+98  )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7f2865847810|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     processTimers                                               |AST   75|Tier 1|Time  158(  91+67  )ms|Inlined   0Y   4N|IR   891/ 2362|CodeSize  10197|Addr 0x7f2865851890|Src internal/timers.js:485
+[engine] opt done     peek                                                        |AST   19|Tier 1|Time   48(  41+7   )ms|Inlined   0Y   0N|IR   165/  336|CodeSize   1490|Addr 0x7f2865856490|Src internal/priority_queue.js:45
+[engine] opt done     listOnTimeout                                               |AST  268|Tier 1|Time  428( 198+230 )ms|Inlined   0Y  12N|IR  1870/ 5201|CodeSize  25021|Addr 0x7f2865857110|Src internal/timers.js:505
+[engine] opt done     peek                                                        |AST   17|Tier 1|Time   38(  32+6   )ms|Inlined   0Y   0N|IR   132/  189|CodeSize    690|Addr 0x7f2865863890|Src internal/linkedlist.js:9
+[engine] opt done     percolateDown                                               |AST  152|Tier 1|Time  167( 124+44  )ms|Inlined   0Y   3N|IR   699/ 1641|CodeSize   7768|Addr 0x7f2865864090|Src internal/priority_queue.js:49
+[engine] opt done     shift                                                       |AST   39|Tier 1|Time   64(  53+11  )ms|Inlined   0Y   1N|IR   252/  519|CodeSize   2234|Addr 0x7f2865868110|Src internal/priority_queue.js:107
+[engine] opt done     removeAt                                                    |AST   98|Tier 1|Time  128( 106+22  )ms|Inlined   0Y   1N|IR   417/  945|CodeSize   4050|Addr 0x7f2865869690|Src internal/priority_queue.js:93
+[engine] opt done     resetCache                                                  |AST    5|Tier 1|Time   26(  20+6   )ms|Inlined   0Y   0N|IR   164/  327|CodeSize   1074|Addr 0x7f286586ba10|Src internal/http.js:24
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  235( 130+104 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300a19390|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   15(  13+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3011d1990|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  821( 793+28  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa300822910|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   16(  13+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa2ff926290|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  223( 126+97  )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300a0f310|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   15(  13+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa301351f90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  888( 865+24  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3011b8890|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   17(  14+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa2fff59f90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  234( 129+105 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300a05290|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   15(  12+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3011b8590|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  947( 925+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3011f7910|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   18(  14+4   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa3002de810|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  243( 136+107 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3009fb210|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   24(  21+4   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa3002f3c10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  903( 881+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa30123ab90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   22(  20+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3011f7610|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  275( 172+102 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3009f1190|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   19(  16+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa3002f8710|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  874( 852+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa300f33190|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   16(  14+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa30123a890|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  240( 144+97  )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3004f2b90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   18(  15+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa3002fab10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  824( 800+23  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa301186f10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   17(  14+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300301b90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  235( 131+104 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3004e8b10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   15(  13+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa301383e90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  857( 834+23  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3011d2a10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   17(  14+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa30030d090|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  222( 124+98  )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3004dea90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   13(  11+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3013d9f90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  712( 690+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa30122c310|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   16(  13+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300310a90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  270( 165+105 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3004d4a10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   15(  13+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3013e6d90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  889( 867+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3012ec090|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   16(  13+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300327e10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  251( 139+112 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3004ca990|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   17(  14+3   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3015e7290|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  793( 770+23  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa301381e10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   17(  14+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa30032ac10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  216( 117+99  )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa3004c0910|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   16(  13+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300333d90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  853( 831+21  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3004beb90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   14(  12+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3004be710|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  218( 118+100 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300ba6c90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   24(  20+4   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa30033cc10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  878( 853+25  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3013dac10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   16(  14+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa3001d9b10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  225( 117+107 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300b9cc10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   17(  14+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa30033dc10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  764( 732+31  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3013e8510|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   20(  16+3   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa300340010|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  219( 123+96  )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300b92b90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   17(  14+4   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa30034c610|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  750( 728+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa300f86590|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   14(  12+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa30033fd10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  225( 120+105 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300b88b10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   17(  14+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300352890|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  847( 824+23  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa300ff1f10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   13(  11+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa300357a10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  217( 118+99  )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300b7ea90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   18(  15+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300359f90|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  994( 972+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa301178990|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   16(  13+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa300357710|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  253( 148+106 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa300b74a10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   19(  15+4   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa30035d690|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  810( 788+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa301193610|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   14(  12+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa30035ed10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  278( 156+122 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa30193c990|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   19(  15+3   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300360990|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  903( 881+22  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa30119fd10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   17(  15+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa30035ea10|Src <builtin>:1
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  255( 150+106 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7fa301946a10|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 1|Time   18(  14+4   )ms|Inlined   0Y   0N|IR    64/   87|CodeSize    434|Addr 0x7fa300366690|Src <builtin>:1
+[engine] opt deopt    Array.prototype.join                                        |AST   18|Src <builtin>:1
+[engine] opt deopt    pushAsyncContext                                            |AST  163|Src internal/async_hooks.js:506
+[engine] opt deopt    emitBeforeScript                                            |AST   21|Src internal/async_hooks.js:476
+[engine] opt deopt    _addListener                                                |AST  195|Src events.js:428
+[engine] opt deopt    socketListenerWrap                                          |AST   65|Src _http_server.js:946
+[engine] opt deopt    emit                                                        |AST  206|Src events.js:349
+[engine] opt deopt    processTicksAndRejections                                   |AST  191|Src internal/process/task_queues.js:67
+[engine] opt done     Footer                                                      |AST  170|Tier 2|Time  778( 757+21  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7fa3011c5b90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     processTicksAndRejections                                   |AST  191|Tier 1|Time  323( 154+169 )ms|Inlined   0Y  13N|IR  1424/ 3182|CodeSize  15314|Addr 0x7fa300ef4f90|Src internal/process/task_queues.js:67
+[engine] opt done     emit                                                        |AST  206|Tier 1|Time  255( 161+94  )ms|Inlined   0Y   3N|IR  1245/ 2548|CodeSize  13132|Addr 0x7fa3009ea190|Src events.js:349
+[engine] opt done     Array.prototype.join                                        |AST   18|Tier 1|Time  266( 114+152 )ms|Inlined   0Y   4N|IR  1191/ 3256|CodeSize  16530|Addr 0x7fa301950a90|Src <builtin>:1
+[engine] opt done     _addListener                                                |AST  195|Tier 1|Time  300( 175+125 )ms|Inlined   0Y   4N|IR  1630/ 4492|CodeSize  21114|Addr 0x7fa301957810|Src events.js:428
+[engine] opt done     removeListener                                              |AST  191|Tier 1|Time  308( 201+107 )ms|Inlined   0Y   3N|IR  1232/ 3495|CodeSize  14643|Addr 0x7fa301961090|Src events.js:567
+[engine] opt done     Readable.removeListener                                     |AST   31|Tier 1|Time   61(  49+12  )ms|Inlined   0Y   1N|IR   272/  556|CodeSize   2322|Addr 0x7fa3011df810|Src internal/streams/readable.js:877
+[engine] opt done     get                                                         |AST   47|Tier 1|Time   57(  47+10  )ms|Inlined   0Y   0N|IR   240/  413|CodeSize   1490|Addr 0x7fa3011de810|Src internal/streams/writable.js:710
+[engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   19(  17+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7fa30036de10|Src <builtin>:1
+[engine] opt done     Readable.on                                                 |AST   82|Tier 2|Time 1572( 603+970 )ms|Inlined  28Y   0N|IR  5210/10278|CodeSize  47026|Addr 0x7fa301967e10|Src internal/streams/readable.js:847
+[engine] opt done     endReadableNT                                               |AST   90|Tier 2|Time  413( 274+140 )ms|Inlined   6Y   0N|IR  1293/ 2207|CodeSize   9042|Addr 0x7fa301983f10|Src internal/streams/readable.js:1310
