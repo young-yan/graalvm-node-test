@@ -1,6 +1,16 @@
-[engine] opt done     Readable                                                    |AST  106|Tier 2|Time  839( 534+306 )ms|Inlined  19Y   0N|IR  3200/ 7824|CodeSize  30450|Addr 0x7f2865835110|Src internal/streams/readable.js:168
-[engine] opt done     Array.prototype.pop                                         |AST   15|Tier 2|Time   74(  54+20  )ms|Inlined   0Y   0N|IR   375/  853|CodeSize   3253|Addr 0x7f2865843a90|Src <builtin>:1
-[engine] opt done     setPosition                                                 |AST    8|Tier 1|Time   38(  32+6   )ms|Inlined   0Y   0N|IR   136/  257|CodeSize    722|Addr 0x7f2865845110|Src internal/timers.js:411
+[engine] opt deopt    WhileNode$WhileDoRepeatingNode@38a1cc70 path.js:65~ 'normalizeString'<OSR>|AST  204|Src n/a
+[engine] opt deopt    normalizeString                                             |AST  238|Src path.js:59
+[engine] opt deopt    resolve                                                     |AST  127|Src path.js:1067
+[engine] opt deopt    SendStream                                                  |AST  359|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:17425
+[engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
+[engine] opt deopt    Footer                                                      |AST  170|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     set                                                         |AST   17|Tier 1|Time   73(  61+12  )ms|Inlined   0Y   0N|IR   185/  436|CodeSize   1426|Addr 0x7f2865879210|Src net.js:1687
+[engine] opt done     SendStream                                                  |AST  359|Tier 1|Time  356( 211+145 )ms|Inlined   0Y   7N|IR  1537/ 6201|CodeSize  24280|Addr 0x7f2866565190|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:17425
+[engine] opt done     Footer                                                      |AST  170|Tier 1|Time  227( 123+104 )ms|Inlined   0Y  12N|IR  1000/ 4070|CodeSize  18450|Addr 0x7f286656f790|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
+[engine] opt done     setHeader <split-20725f2e>                                  |AST   78|Tier 1|Time  202( 160+42  )ms|Inlined   0Y   4N|IR   540/ 1578|CodeSize   6226|Addr 0x7f2864001490|Src _http_outgoing.js:559
+[engine] opt done     hidden <split-53c217b9>                                     |AST   53|Tier 1|Time  145(  88+57  )ms|Inlined   0Y   3N|IR   655/ 2146|CodeSize   8818|Addr 0x7f2864b53110|Src internal/errors.js:306
+[engine] opt done     hidden <split-5d66c661>                                     |AST   53|Tier 1|Time  155(  94+61  )ms|Inlined   0Y   3N|IR   659/ 2158|CodeSize   8850|Addr 0x7f2866579810|Src internal/errors.js:306
+[engine] opt done     SendStream                                                  |AST  359|Tier 2|Time 2433(1276+1157)ms|Inlined  23Y   8N|IR  5984/12576|CodeSize  54226|Addr 0x7f286657da90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:17425
 [engine] opt done     Date.prototype.getFullYear                                  |AST    2|Tier 2|Time   14(  12+2   )ms|Inlined   0Y   0N|IR     5/    5|CodeSize     88|Addr 0x7f28649ad090|Src <builtin>:1
 [engine] opt done     Footer                                                      |AST  170|Tier 2|Time  853( 832+21  )ms|Inlined   2Y  10N|IR   387/  663|CodeSize   2418|Addr 0x7f2865845a90|Src /data/services/emp2-deploy-test/dist/esbuild/index.js:197757
 [engine] opt deopt    Date                                                        |AST    3|Src <builtin>:1
